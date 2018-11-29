@@ -18,7 +18,7 @@ class WeatherTableViewCell: UITableViewCell {
         super.awakeFromNib()
      }
  
-    func  load(_ weather : Weather){
+    func  loadView(_ weather : Weather){
         cityLabel.text=weather.cityName
         tempretureLabel.text=String(weather.temperature) + "°"
         windSpeedLabel.text=String(weather.windSpeed) + "km/h"

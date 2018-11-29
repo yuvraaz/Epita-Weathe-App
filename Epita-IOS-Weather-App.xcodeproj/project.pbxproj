@@ -16,6 +16,7 @@
 		2ABA0CB12194ADF400222577 /* Epita_IOS_Weather_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABA0CB02194ADF400222577 /* Epita_IOS_Weather_AppUITests.swift */; };
 		2ABA0CBF2194AE7300222577 /* weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABA0CBE2194AE7300222577 /* weather.swift */; };
 		2ABA0CC12194B74F00222577 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABA0CC02194B74F00222577 /* WeatherTableViewCell.swift */; };
+		2AF7F1C1219DF6D50077A493 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF7F1C0219DF6D50077A493 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2ABA0CB22194ADF400222577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ABA0CBE2194AE7300222577 /* weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather.swift; sourceTree = "<group>"; };
 		2ABA0CC02194B74F00222577 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		2AF7F1C0219DF6D50077A493 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				2ABA0C902194ADF100222577 /* AppDelegate.swift */,
 				2ABA0C922194ADF100222577 /* ViewController.swift */,
 				2ABA0C942194ADF100222577 /* Main.storyboard */,
+				2AF7F1C0219DF6D50077A493 /* DetailViewController.swift */,
 				2ABA0CBE2194AE7300222577 /* weather.swift */,
 				2ABA0C972194ADF300222577 /* Assets.xcassets */,
 				2ABA0C992194ADF300222577 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				2ABA0CC12194B74F00222577 /* WeatherTableViewCell.swift in Sources */,
 				2ABA0C932194ADF100222577 /* ViewController.swift in Sources */,
+				2AF7F1C1219DF6D50077A493 /* DetailViewController.swift in Sources */,
 				2ABA0C912194ADF100222577 /* AppDelegate.swift in Sources */,
 				2ABA0CBF2194AE7300222577 /* weather.swift in Sources */,
 			);
